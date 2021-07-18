@@ -11,7 +11,8 @@ In submitSignaure function, change "mainnet":"ronin" to "mainnet":"ethereuem"
 2. Clone the file by running:
 * `git clone https://github.com/ZracheSs-xyZ/QrCodeBot-xyZ`
 3. Install the requierements by running in to correct path:
-* `./install-ubuntu.sh`
+* `chmod +x install-ubuntu.sh`
+* `sudo ./install-ubuntu.sh`
 4. Follow this tutorial to create and add a bot to your Discord Server:
 * `https://discordpy.readthedocs.io/en/stable/discord.html`
 5. Update the SecretStorage.py file in repo with the Token of your bot and with the information of your scholars.
