@@ -25,6 +25,8 @@ This is a Discord bot that will provide a QR Code to your Axie Infinity scholars
 
 # bug to fix
 - [x] Current time isn't displayed correcly
+- [x] Fix edge case where the bot could send a wrong code
+=> this could've happen in extreme edge cases where a lot of scholars were asking for a code simultaniously and axie server didn't respond in time!
 - [ ] Please tell me if you experience any bugs...
 
 # Donations
