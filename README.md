@@ -26,8 +26,6 @@ In submitSignaure function, change "mainnet":"ronin" to "mainnet":"ethereuem"
 # Upcoming new features
 - [x] Create a QR Code Bot
 - [x] Create a payout script : https://github.com/ZracheSs-xyZ/PayoutScript-xyZ
-- [ ] Add a graphic user interface
-- [ ] Add an internal statistic tracking system
 - [ ] So much more...
 
 # bug to fix
