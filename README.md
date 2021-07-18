@@ -1,5 +1,6 @@
 # QrCodeBot-xyZ
 This is a Discord bot that will provide a QR Code to your Axie Infinity scholars.
+This version of the bot is compatible with ronin!
 
 # Setup
 1. Run Ubuntu on AWS ec2 instance
