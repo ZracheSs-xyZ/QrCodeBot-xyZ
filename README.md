@@ -19,8 +19,9 @@ In submitSignaure function, change "mainnet":"ronin" to "mainnet":"ethereuem"
 6. Run the script by running in to correct path:
 * `python3 ./QRCodeBot-xyz.py`
 
-# Step-by-step video tutorial
-(coming soon...)
+# Step-by-step help
+- Please join my Discord channel : https://discord.com/invite/837cCXPd48
+- DM our Head of IT for support
 
 # Upcoming new features
 - [x] Create a QR Code Bot
