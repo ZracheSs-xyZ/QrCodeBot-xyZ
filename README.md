@@ -16,7 +16,7 @@ In submitSignaure function, change "mainnet":"ronin" to "mainnet":"ethereuem"
 * `https://discordpy.readthedocs.io/en/stable/discord.html`
 5. Update the SecretStorage.py file in repo with the Token of your bot and with the information of your scholars.
 6. Run the script by running in to correct path:
-* `python3 ./DiscordBot.py`
+* `python3 ./QRCodeBot-xyz.py`
 
 # Step-by-step video tutorial
 (coming soon...)
