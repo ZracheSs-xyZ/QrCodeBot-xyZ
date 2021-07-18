@@ -4,7 +4,7 @@ This is a Discord bot that will provide a QR Code to your Axie Infinity scholars
 # Setup
 1. Run Ubuntu on AWS ec2 instance
 2. Clone the file by running:
-* `git clone https://github.com/ZracheSs-xyZ/DiscordQRCodeBot`
+* `git clone https://github.com/ZracheSs-xyZ/QrCodeBot-xyZ`
 3. Install the requierements by running in to correct path:
 * `./install-ubuntu.sh`
 4. Follow this tutorial to create and add a bot to your Discord Server:
