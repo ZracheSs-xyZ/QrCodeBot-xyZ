@@ -31,7 +31,7 @@ In submitSignaure function, change "mainnet":"ronin" to "mainnet":"ethereuem"
 # bug to fix
 - [x] Current time isn't displayed correcly
 - [x] Fix edge case where the bot could send a wrong code
-- This could've happen in extreme edge cases where a lot of scholars were asking for a code simultaniously and axie server didn't respond in time!
+- This could've happen in extreme edge cases where a lot of scholars were asking for a code simultaniously and axie server didn't respond in a timely manner!
 
 Please tell me if you experience any bugs...
 
