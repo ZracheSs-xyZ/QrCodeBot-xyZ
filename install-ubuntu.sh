@@ -1,5 +1,6 @@
 #!/bin/bash
 homedir=/home/ubuntu
+apppath="QrCodeBot-xyZ"
 echo "Installing the requirements ... "
 
 
@@ -16,7 +17,7 @@ sudo apt install -y python3-pip
 sudo apt-get install -y libcairo2-dev libgirepository1.0-dev
 
 echo "Updating requirements file"
-cd $homedir/DiscordQRCodeBot
+cd $homedir/$apppath
 pip freeze > requirements.txt
 
 echo "Installing application requirements"
@@ -28,4 +29,4 @@ pip3 install Image
 pip install pillow
 
 
-sudo chown -R ubuntu:ubuntu $homedir/DiscordQRCodeBot
+sudo chown -R ubuntu:ubuntu $homedir/$apppath
