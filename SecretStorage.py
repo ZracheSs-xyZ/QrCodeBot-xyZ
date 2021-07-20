@@ -13,5 +13,5 @@ ScholarsDict = {
 DiscordBotToken = 'DFV9NTAyMDfDvdD1MDI0ODs7.HK-_4S.9dmfxFGtg_2s1-aMk-FCeDFsQfdV'
 
 #please select a login type
-# value is etherium or ronin 
+# value is ethereum or ronin 
 MainNet = "ethereum"
