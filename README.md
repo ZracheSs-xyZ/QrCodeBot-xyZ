@@ -4,7 +4,7 @@
 
 - If you want to use it with Ethereum information instead:
 
-In submitSignaure function, change "mainnet":"ronin" to "mainnet":"ethereuem"
+In submitSignaure function, change "mainnet":"ronin" to "mainnet":"ethereum"
 
 # Setup
 1. Run Ubuntu on AWS ec2 instance
