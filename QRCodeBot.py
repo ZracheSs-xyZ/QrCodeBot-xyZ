@@ -27,11 +27,11 @@ def getSignMessage(rawMessage, accountPrivateKey):
     # Return the signature
     return hexSignature
 
-def submitSignature(signedMessage, message, accountAddress):
+def submitSignature(signedMessage, message, accountAddress, mainNet):
     # Function to submit the signature and get authorization
 
     # An example of a requestBody needed
-    requestBody = {"operationName":"CreateAccessTokenWithSignature","variables":{"input":{"mainnet":"ronin","owner":"User's Eth Wallet Address","message":"User's Raw Message","signature":"User's Signed Message"}},"query":"mutation CreateAccessTokenWithSignature($input: SignatureInput!) {\n  createAccessTokenWithSignature(input: $input) {\n    newAccount\n    result\n    accessToken\n    __typename\n  }\n}\n"}
+    requestBody = {"operationName":"CreateAccessTokenWithSignature","variables":{"input":{"mainnet":mainNet,"owner":"User's Eth Wallet Address","message":"User's Raw Message","signature":"User's Signed Message"}},"query":"mutation CreateAccessTokenWithSignature($input: SignatureInput!) {\n  createAccessTokenWithSignature(input: $input) {\n    newAccount\n    result\n    accessToken\n    __typename\n  }\n}\n"}
     # Remplace in that example to the actual signed message
     requestBody['variables']['input']['signature'] = signedMessage['signature'].hex()
     # Remplace in that example to the actual raw message

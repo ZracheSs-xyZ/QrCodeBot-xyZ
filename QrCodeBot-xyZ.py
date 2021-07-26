@@ -38,7 +38,7 @@ async def on_message(message):
             # Sign that message with accountPrivateKey
             signedMessage = getSignMessage(rawMessage, accountPrivateKey)
             # Get an accessToken by submitting the signature to AxieInfinty
-            accessToken = submitSignature(signedMessage, rawMessage, accountAddress)
+            accessToken = submitSignature(signedMessage, rawMessage, accountAddress, MainNet)
             # Create a QrCode with that accessToken
             qrCodePath = f"QRCode_{message.author.id}_{str(uuid.uuid4())[0:8]}.png"
             qrcode.make(accessToken).save(qrCodePath)
