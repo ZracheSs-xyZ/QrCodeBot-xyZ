@@ -10,7 +10,7 @@ def getRawMessage():
     # An exemple of a requestBody needed
     requestBody = {"operationName":"CreateRandomMessage","variables":{},"query":"mutation CreateRandomMessage {\n  createRandomMessage\n}\n"}
     # Send the request
-    r = requests.post('https://axieinfinity.com/graphql-server-v2/graphql', headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36',}, data=requestBody)
+    r = requests.post('https://graphql-gateway.axieinfinity.com/graphql', headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36',}, data=requestBody)
     # Load the data into json format
     json_data = json.loads(r.text)
     # Return the message to sign
@@ -39,7 +39,7 @@ def submitSignature(signedMessage, message, accountAddress):
     # Remplace in that example to the actual account address
     requestBody['variables']['input']['owner'] = accountAddress
     # Send the request
-    r = requests.post('https://axieinfinity.com/graphql-server-v2/graphql', headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36',}, json=requestBody)
+    r = requests.post('https://graphql-gateway.axieinfinity.com/graphql', headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36',}, json=requestBody)
     # Load the data into json format
     json_data = json.loads(r.text)
     # Return the accessToken value
